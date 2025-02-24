@@ -1,0 +1,47 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+	background-color:#778899;
+	font-family:Didact Gothic ,Lucida Sans Unicode, sans-seif;
+	color:aliceblue;
+	
+
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 2.2em;
+    line-height: 2.0em;
+	text-transform: lime;
+	div#something:hover {
+		background-position: center;
+		Width: 300px;
+		Height: 400px;
+		border: purple;
+		border-radius: 50%;
+		Bottom: 20px;
+		Right: 20px;
+		
+		
+	}
+	
+}
+
+
+
+
+ {
+	
+	
+}
+
+
+#container {
+	
+}
+
+
+
+
