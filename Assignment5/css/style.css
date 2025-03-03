@@ -3,10 +3,10 @@ html, body {
 	margin:0px;
 	padding:0px;
 	height:100%;
-	background-color:#778899;
+	background-color:#C8E0F4;
 	font-family:Didact Gothic ,Lucida Sans Unicode, sans-seif;
 	color:aliceblue;
-	
+
 
 }
 
@@ -15,33 +15,136 @@ html {
 	font-size: 2.2em;
     line-height: 2.0em;
 	text-transform: lime;
-	div#something:hover {
-		background-position: center;
-		Width: 300px;
-		Height: 400px;
-		border: purple;
-		border-radius: 50%;
-		Bottom: 20px;
-		Right: 20px;
-		
-		
-	}
 	
+}
+
+div#container:hover {
+	background-position: center;
+	Width: 300px;
+	height: 400px;
+	border: purple;
+	border-radius: 50%;
+	bottom: 20px;
+	right: 20px;
+	
+	position: absolute;
+}
+
+#one
+{ 
+	position: absolute;
+}
+
+#two
+{
+	position: absolute;
+}
+
+#three
+{
+	position: absolute;
+
+}
+
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: #031927;}
+  }
+
+#four
+{
+	width: 100px;
+	position: absolute;
+	left: 50%;
+	height: 100%;
+	background: red;
+}
+#four:hover{
+	animation-name: example;
+  animation-duration: 1s;
+} 
+@keyframes example2 {
+	from {height: 100px;}
+	to {height: 1000px;}
+  }
+#five
+{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	height: 100px;
+	background: red;
+}
+#five:hover{
+	animation-name: example2;
+  animation-duration: 1s;
+}
+
+#six
+{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	transform: skew(20deg);
+	background: red;
+}
+#seven
+{
+	left: 400px;
+	top: 67px;
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 100px solid #031927;
+	border-left: 100px solid transparent;
+}
+
+#eight
+{
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 100px solid red;
+	border-right: 100px solid transparent;
+}
+
+#nine
+{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	background: red;
+	border-radius: 100px / 50px;
 }
 
 
 
-
- {
-	
-	
+#ten
+{
+	position: absolute;
 }
-
-
 #container {
-	
+	color: black;
 }
+text-replace:hover:user-valid{animation: infinite;animation: both;}
 
+/* The animation code */
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+  div#container {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+	shape-image-threshold: calc(25%);
+	position: absolute;
+
+  }
 
 
 
